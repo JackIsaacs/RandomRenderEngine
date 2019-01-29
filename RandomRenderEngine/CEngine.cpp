@@ -13,7 +13,11 @@ CEngine::CEngine(int argc, char *argv[])
 		sSingleton = this;
 	}
 
+	CMessageLog::LogStartMessage();
+
 	Game = new CGame();
+
+	PRINT(Log, "Test");
 }
 
 CEngine::~CEngine()

@@ -117,15 +117,21 @@
   <ItemGroup>
     <ClCompile Include="CEngine.cpp" />
     <ClCompile Include="CGame.cpp" />
+    <ClCompile Include="CRenderer.cpp" />
     <ClCompile Include="LogMacros.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CEngine.h" />
     <ClInclude Include="CGame.h" />
+    <ClInclude Include="CRenderer.h" />
     <ClInclude Include="DebugMacros.h" />
     <ClInclude Include="EngineMacros.h" />
     <ClInclude Include="LogMacros.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RandomRenderEngine.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
